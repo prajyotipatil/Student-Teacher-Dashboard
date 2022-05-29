@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "295550202753",
+    "project_id": "pixelstat-90e68",
+    "storage_bucket": "pixelstat-90e68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295550202753:android:171a56d9523e63b10bee80",
+        "android_client_info": {
+          "package_name": "com.example.pixelstat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295550202753-3g1hq497pmlgvaae5ft12ot9nmcadh5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCR6XCRKROsUxBA2in5P8ky1zJ2QfcA4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295550202753-3g1hq497pmlgvaae5ft12ot9nmcadh5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

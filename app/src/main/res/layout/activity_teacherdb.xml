@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacherdb"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List of students"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:padding="20dp"
+        android:outlineSpotShadowColor="@color/black">
+        <TableRow>
+            <TextView
+                android:text="Name of student"
+                android:padding="3dip" />
+            <TextView
+                android:text="Status"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t1"
+                android:text="Rachel Green"
+                android:padding="3dip" />
+            <TextView
+                android:text="Updated"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Monica Geller"
+                android:padding="3dip" />
+            <TextView
+                android:text="Not Updated"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Joey Tribianni"
+                android:padding="3dip" />
+            <TextView
+                android:text="Not Updated"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
